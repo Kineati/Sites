@@ -1,0 +1,153 @@
+#Body-1{
+    z-index: 0; 
+    max-height: 0; 
+    padding: 0; 
+    margin: 0; 
+    position: relative;
+    background-color: lightgoldenrodyellow; 
+}
+
+#Imagem-1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0cm;
+    left: 0cm;
+    z-index: -1;
+}
+
+#Imagem-2{
+    position: absolute;
+    top: 0cm;
+    left: 0cm;
+}
+
+#Imagem-3{
+    position: absolute;
+    top: 0cm;
+    right: 0;
+}
+
+#Borders{
+    position: relative;
+    box-sizing: border-box;
+    border: 3px groove black;
+    margin: 0 auto;
+    width: 99%;
+    min-height: 91.2vh;
+    top: 1vh;
+    border-radius: 5px;
+}
+
+#Div-1{
+    margin: 0 auto;
+    margin-top: 0.15cm;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    border: 5px double white;
+    font-size: 17px;
+    z-index: -1;
+    width: 51vh;
+    height: 6.8vh;
+    max-height: max-content;
+    border-top-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    border-top-right-radius: 2vh;
+    border-bottom-left-radius: 2vh;
+}
+
+#Div-2{
+    margin: 0 auto;
+    margin-top: 19.4cm;
+    margin-right: 0.1cm;
+    margin-left: 9cm;
+    border-radius: 4px;
+}
+
+#Header-1{
+    color:rgb(0, 0, 0); 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center; 
+    position: relative; 
+    max-height: 0; 
+    bottom: 2cm;
+}
+
+#Header-2{
+    color:rgb(255, 255, 255); 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center; 
+    position: relative; 
+    max-height: 0; 
+    bottom: 0.89cm;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+#Header-3{
+    color:rgb(0, 0, 0); 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center; 
+    position: relative; 
+    max-height: 0; 
+    bottom: 1.58cm;
+}
+
+#Header-4{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center; 
+    position: relative;
+    max-height: 0;
+    bottom: 2.13cm;
+}
+
+#Header-5{
+    color: rgb(255, 217, 0);
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center; 
+    position: relative;
+    max-height: 0;
+    bottom: 2.8cm;
+}
+
+#Numero-Telefone_Email{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    position: relative;
+    max-height: 0;
+    margin: 0 auto;
+    bottom: 0.25cm;
+    left: 0.3cm;
+}
+
+#Numero-Telefone_Email_Aux{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    position: relative;
+    max-height: 0;
+    margin: 0 auto;
+    bottom: 0.3cm;
+    left: 0.3cm;
+}
+
+#Numero-Telefone_Email_Aux2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    position: relative;
+    max-height: 0;
+    margin: 0 auto;
+    bottom: 0.37cm;
+    left: 0.3cm;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke: 3px;
+}
+
+@media screen and (max-width:1200px) {
+    h1{
+        
+    }
+}
